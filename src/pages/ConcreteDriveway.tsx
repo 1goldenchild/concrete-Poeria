@@ -72,10 +72,10 @@ const ConcreteDriveway = () => {
               PROFESSIONAL CONCRETE SERVICES
             </span>
             <h1 className="text-white mb-6 font-bold opacity-0 animate-fade-in animate-delay-300">
-              Peoria Concrete Driveway
+              Concrete Driveway in Peoria
             </h1>
             <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-400">
-              Peoria Concrete installs professional concrete driveways for homes and businesses throughout Peoria. Concrete driveways are low-maintenance compared to other materials, making them the preferred choice for both business and residential customers. Concrete saves owners more money over the long term than cheaper materials like gravel or asphalt.
+              Peoria Concrete Co. puts in professional walkways made of concrete for homes and businesses all over Peoria. Because they don't need as much upkeep as other materials, concrete paths are the best choice for both businesses and homeowners. Owners save more money in the long run with concrete than with dirt or asphalt, which are less expensive.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in animate-delay-500">
@@ -115,15 +115,15 @@ const ConcreteDriveway = () => {
             
             <div className="space-y-6 opacity-0 animate-fade-in animate-delay-100">
               <p className="text-lg">
-                Cement, sand, and water are used to make concrete driveways. The materials combine to make an extremely strong substance that can withstand pressure, harsh weather, time, and harm once mixed and sealed.
+                Pavement paths are made with cement, sand, and water. When mixed and bound, the materials make a very strong substance that can stand up to pressure, bad weather, time, and damage.
               </p>
               
               <p className="text-lg">
-                Concrete driveways are often less expensive per square foot than asphalt driveways. The cost of concrete, on the other hand, is usually dictated by the driveway's size and decorative possibilities. The cost should not be a deterrent to getting the driveway of your dreams. We also install stamped concrete if you are on a budget but still want to embellish your driveway. Clients can also choose from a range of tinting options to color the edge or the entire area.
+                Most of the time, asphalt driveways cost more per square foot than concrete driveways. The price of concrete, on the other hand, depends on how big the driveway is and what kinds of decorations you want to use. You shouldn't let the price stop you from getting the driveway of your dreams. If you want to decorate your driveway but don't have a lot of money, we can also put in stamped concrete. Also, clients can tint the edge or the whole area in a number of different ways.
               </p>
               
               <p className="text-lg">
-                In either case, Peoria Concrete is committed to ensuring that you have the driveway of your dreams. A concrete contractor will inspect your sidewalk to determine whether it should be repaired or replaced. Peoria Concrete will begin working on your project as soon as we have a clear understanding of what needs to be done. Broken or fractured concrete is completely removed and replaced by us. The difference is that at Peoria Concrete, we always fix the underlying issue that caused the concrete to collapse in the first place. Many of our competitors just remove the old concrete and replace it with new concrete in the same location and in the same manner.
+                Peoria Concrete Co. wants to make sure you get the driveway of your dreams no matter what. A concrete contractor will look at your path and tell you if it needs to be fixed or rebuilt. Once we have a good idea of what needs to be done, Peoria Concrete Co. will start working on your job. We take out and repair any concrete that is broken or cracked. The only difference is that at Peoria Concrete Co., we always fix the problem that made the concrete fall in the first place. We have a lot of rivals who just take out the old concrete and put in new concrete in the same place and way.
               </p>
             </div>
             
@@ -147,13 +147,13 @@ const ConcreteDriveway = () => {
       <section className="section bg-concrete-light py-10 md:py-16" ref={(el) => addToRefs(el, 2)}>
         <div className="container px-6 mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-concrete-dark opacity-0 animate-fade-in">
-              Concrete and Weather Conditions in Peoria
-            </h3>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-concrete-dark opacity-0 animate-fade-in">
+              Concrete and the weather in Peoria
+            </h2>
             
             <div className="opacity-0 animate-fade-in animate-delay-100">
               <p className="text-lg mb-6">
-                The harsh weather in Peoria makes it difficult to keep concrete in good condition. The temperature difference between summer and winter freezes and thaws the water that penetrates the surface. This process wears down the concrete unevenly and makes it seem bad by chipping the surface and eroding the top finished layer.
+                It's hard to keep concrete in good shape in Peoria because of the bad weather. The change in temperature between summer and winter makes the water below the surface freeze and thaw. In this method, the concrete is worn down randomly and looks bad because the top layer is chipped and worn away.
               </p>
             </div>
           </div>
@@ -192,13 +192,13 @@ const ConcreteDriveway = () => {
       <section className="section bg-white py-16 md:py-20" ref={(el) => addToRefs(el, 4)}>
         <div className="container px-6 mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-concrete-dark opacity-0 animate-fade-in">
-              Concrete Driveway Services
-            </h2>
+            <h3 className="text-3xl sm:text-4xl font-bold mb-8 text-concrete-dark opacity-0 animate-fade-in">
+              Installing a Concrete Driveway in Peoria at a Low Cost
+            </h3>
             
             <div className="space-y-6 opacity-0 animate-fade-in animate-delay-100">
               <p className="text-lg">
-                When you need a high-quality driveway installed at a reasonable price, trust the professionals at Peoria Concrete to complete the work correctly. For your parking lot, our professional staff can install new driveways and sidewalks. We can also fix any existing driveways or walkways.
+                Trust the pros at Peoria Concrete Co. to do a great job installing your driveway at a fair price. Our skilled workers can put in new roads and steps for your parking lot. We can also fix any walkways or roads that are already there.
               </p>
               
               <div className="mt-8 mb-8">
@@ -210,13 +210,17 @@ const ConcreteDriveway = () => {
               </div>
               
               <p className="text-lg">
-                Concrete is typically used for crack and gap repair, and restoring damaged cement to its original condition. In order to assure safety, aesthetic value, and cost-effectiveness, damaged concrete must be repaired and maintained before it completely fails. We take pride in transforming any driveway into a sophisticated and professional place that enhances the value of your home and is constructed to last.
-              </p>
-              
-              <p className="text-lg">
-                In addition, our dependable concrete contractors have extensive experience in decorative concrete work for your outdoor space to enhance its aesthetic appeal. Give us a call today if you need driveway or any concrete work.
+                Most of the time, concrete is used to fix cracks and holes and bring broken cement back to its original state. To keep people safe, make things look nice, and keep costs down, broken concrete needs to be fixed and kept up before it totally fails. We're proud to be able to turn any driveway into a classy and professional space that raises the value of your home and is built to last.
               </p>
             </div>
+            
+            <h3 className="text-2xl sm:text-3xl font-bold mt-12 mb-6 text-concrete-dark opacity-0 animate-fade-in animate-delay-200">
+              Driveways Made of Decorative Concrete
+            </h3>
+            
+            <p className="text-lg opacity-0 animate-fade-in animate-delay-300">
+              Our reliable concrete builders also have a lot of experience doing ornamental concrete work for your outdoor space to make it look better. Give us a call right now if you need work done on your road or with concrete.
+            </p>
             
             <div className="mt-8 opacity-0 animate-fade-in animate-delay-300">
               <button 
