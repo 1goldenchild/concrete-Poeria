@@ -15,6 +15,7 @@ import TermsConditions from "./pages/TermsConditions";
 import ChampaignIL from "./pages/ChampaignIL";
 import BloomingtonIL from "./pages/BloomingtonIL";
 import NormalIL from "./pages/NormalIL";
+import MortonIL from "./pages/MortonIL";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/concrete-contractor/champaign-il" element={<ChampaignIL />} />
           <Route path="/concrete-contractor/Bloomington-il" element={<BloomingtonIL />} />
           <Route path="/concrete-contractor/normal-il" element={<NormalIL />} />
+          <Route path="/concrete-contractor/morton-il" element={<MortonIL />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
