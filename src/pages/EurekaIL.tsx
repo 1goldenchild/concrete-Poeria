@@ -36,7 +36,7 @@ const EurekaIL = () => {
               Concrete Contractors and Concrete Firm in Eureka, IL
             </h1>
             <p className="text-lg text-white mb-8">
-              From our location in Eureka, we provide a variety of <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete driveway</Link> and <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">concrete patio</Link> contracting services that may be executed in or around your residence. Visit our <Link to="/" className="text-primary hover:underline">concrete company</Link> page to learn more.
+              From our location in Eureka, we provide a variety of <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete driveway</Link> and <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">concrete patio</Link> contracting services that may be executed in or around your residence.
             </p>
             <Button 
               onClick={handleCallClick} 
@@ -70,10 +70,10 @@ const EurekaIL = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              If you like to augment the quantity of concrete in your residence, you are in the right place! Numerous exemplary concrete enterprises now operate in Eureka. <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link>, your local <Link to="/" className="text-primary hover:underline">concrete enterprise</Link>, is dedicated to managing any tasks you want for your residence.
+              If you like to augment the quantity of concrete in your residence, you are in the right place! Numerous exemplary concrete enterprises now operate in Eureka. <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link>, your local concrete enterprise, is dedicated to managing any tasks you want for your residence.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              We believe we are the optimal <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete service provider</Link> for your requirements, whether for a small-scale project or a large commercial order. Our <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">stamped concrete</Link> solutions are particularly popular in the area.
+              We believe we are the optimal <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete service provider</Link> for your requirements, whether for a small-scale project or a large commercial order.
             </p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg animate-fade-in opacity-0 [animation-delay:600ms]">
@@ -99,16 +99,10 @@ const EurekaIL = () => {
           </div>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              You want to guarantee that the premier <Link to="/" className="text-primary hover:underline">concrete company</Link> in your vicinity will fulfill your needs. We recommend acquiring many concrete estimates prior to making any decisions, as it is hard to assess the superiority of one business over another without an in-person encounter. We request that you compare the stores. We have confidence in our products and exceptional service, and we encourage you to explore your options.
+              You want to guarantee that the premier <Link to="/" className="text-primary hover:underline">concrete company</Link> in your vicinity will fulfill your needs. We recommend acquiring many concrete estimates prior to making any decisions, as it is hard to assess the superiority of one business over another without an in-person encounter.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Contact <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> immediately to address any <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">concrete concerns</Link> that necessitate resolution by our skilled technicians! A reliable cost estimate facilitates the efficient planning of any real work. Our team of <Link to="/" className="text-primary hover:underline">concrete professionals</Link> have extensive, practical knowledge and is capable of managing all aspects of concrete work.
-            </p>
-            <p className="text-lg mb-6 text-gray-700">
-              Numerous homeowners consider concrete to be an excellent accent. Our economical and efficient, high-caliber service assists you in selecting concrete design. If you need a professional team for commercial projects or little tasks, we are prepared to assist. The installation of a new <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete driveway</Link> or <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link> offers satisfaction to our team of skilled <Link to="/" className="text-primary hover:underline">concrete builders</Link>.
-            </p>
-            <p className="text-lg mb-6 text-gray-700">
-              <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> provides fundamental services like concrete roadways, flatwork, <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patios</Link>, walkways, and pathways. Utilizing robust and modern materials, we provide an extensive array of professional concrete services that require less maintenance and care. We offer a comprehensive range of concrete services for residential and commercial edifices. If you want <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">repair on existing concrete</Link> or are in search of new concrete flatwork for patios and walkways in Eureka and the surrounding area, please contact one of our concrete contractors at {phoneNumber}.
+              Contact <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> immediately to address any <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">concrete concerns</Link> that necessitate resolution by our skilled technicians! A reliable cost estimate facilitates the efficient planning of any real work.
             </p>
           </div>
         </div>
@@ -309,25 +303,18 @@ const EurekaIL = () => {
           </div>
         </div>
 
-        {/* Our Services Section */}
+        {/* Our Services Section - Limited to most important services */}
         <div className="my-12">
           <h3 className="text-2xl font-bold mb-6">Our Concrete Services</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link to="/concrete-driveway-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
               <h4 className="font-semibold">Concrete Driveways</h4>
-              <p className="text-sm text-gray-600 mt-2">Expert driveway installation in Eureka</p>
             </Link>
             <Link to="/concrete-patio-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
               <h4 className="font-semibold">Concrete Patios</h4>
-              <p className="text-sm text-gray-600 mt-2">Beautiful outdoor spaces for your home</p>
             </Link>
             <Link to="/stamped-concrete-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
               <h4 className="font-semibold">Stamped Concrete</h4>
-              <p className="text-sm text-gray-600 mt-2">Decorative options for any surface</p>
-            </Link>
-            <Link to="/concrete-crack-repair-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
-              <h4 className="font-semibold">Concrete Repair</h4>
-              <p className="text-sm text-gray-600 mt-2">Fix cracks and damage effectively</p>
             </Link>
           </div>
         </div>

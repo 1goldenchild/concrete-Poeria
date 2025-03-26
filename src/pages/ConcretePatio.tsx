@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
@@ -31,7 +30,7 @@ const ConcretePatio = () => {
               Concrete Patio in Peoria
             </h1>
             <p className="text-lg md:text-xl mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Transform your outdoor living space with our expert concrete patio solutions.
+              Transform your outdoor living space with our expert <Link to="/" className="text-primary hover:underline">concrete company</Link> solutions.
             </p>
             <Button 
               size="lg" 
@@ -66,7 +65,7 @@ const ConcretePatio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
           <div className="prose max-w-none">
             <p className="text-lg leading-relaxed mb-6">
-              A lot of houses in Peoria are made of concrete. Concrete is a cheap and good material for building and gardening because it can be used in many ways and can be decorated. It's easy for our workers to pour concrete to fill in cracks in driveways and sidewalks. We have put down a huge number of concrete blocks. One thing we do really well is building concrete patios. Peoria Concrete Co. can help you with the cost and repair of your concrete driveway. Call us at 309-245-7421 right now to find out if we do the concrete work you need.
+              A lot of houses in Peoria are made of concrete. Concrete is a cheap and good material for building and gardening because it can be used in many ways and can be decorated. It's easy for our workers to pour concrete to fill in cracks in <Link to="/concrete-driveway-peoria-il" className="text-accent hover:underline">driveways</Link> and sidewalks. We have put down a huge number of concrete blocks. One thing we do really well is building concrete patios. <Link to="/" className="text-accent hover:underline">Peoria Concrete Co.</Link> can help you with the cost and <Link to="/concrete-crack-repair-peoria-il" className="text-accent hover:underline">repair</Link> of your concrete driveway. Call us at 309-245-7421 right now to find out if we do the concrete work you need.
             </p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
@@ -92,7 +91,7 @@ const ConcretePatio = () => {
             </div>
             <div className="order-1 md:order-2 prose max-w-none">
               <p className="text-lg leading-relaxed mb-6">
-                You should think about a few things as a homeowner when you need to find a concrete builder near you. We do our best to provide all the concrete services you may require! We fix concrete driveways all the time. Our workers have been doing this for years, and we're happy to offer a lot of different stamped concrete driveway choices. We are the best at putting together concrete patio ideas. We work hard to make sure that you don't have to give up quality to get flat-work concrete at a good price. There are different Peoria concrete companies that don't all provide the same high level of service and low prices. Don't wait any longer. When you call our team at 309-245-7421 today, you can be sure you're talking to the best concrete builders in the area!
+                You should think about a few things as a homeowner when you need to find a <Link to="/" className="text-accent hover:underline">concrete builder</Link> near you. We do our best to provide all the concrete services you may require! We fix <Link to="/concrete-driveway-peoria-il" className="text-accent hover:underline">concrete driveways</Link> all the time. Our workers have been doing this for years, and we're happy to offer a lot of different <Link to="/stamped-concrete-peoria-il" className="text-accent hover:underline">stamped concrete</Link> driveway choices. We are the best at putting together concrete patio ideas.
               </p>
             </div>
           </div>
@@ -131,6 +130,17 @@ const ConcretePatio = () => {
                 className="w-full h-auto rounded-lg shadow-lg image-glow"
               />
             </div>
+          </div>
+        </div>
+
+        <div className="my-12">
+          <h3 className="text-2xl font-bold mb-6 text-gray-800">Areas We Serve</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <Link to="/concrete-contractor/champaign-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Champaign, IL</Link>
+            <Link to="/concrete-contractor/Bloomington-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Bloomington, IL</Link>
+            <Link to="/concrete-contractor/normal-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Normal, IL</Link>
+            <Link to="/concrete-contractor/eureka-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Eureka, IL</Link>
+            <Link to="/concrete-contractor/canton-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Canton, IL</Link>
           </div>
         </div>
       </section>

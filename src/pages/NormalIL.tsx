@@ -1,9 +1,9 @@
-
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const NormalIL = () => {
   const phoneNumber = "309-245-7421";
@@ -38,7 +38,7 @@ const NormalIL = () => {
               Concrete Company and Contractors in Normal, IL
             </h1>
             <p className="text-lg text-white mb-8">
-              In Normal, we provide a variety of concrete contracting services for your residence and its surroundings.
+              In Normal, we provide a variety of <Link to="/concrete-driveway-peoria-il" className="text-white hover:underline">concrete driveway</Link> and <Link to="/concrete-patio-peoria-il" className="text-white hover:underline">concrete patio</Link> contracting services for your residence and its surroundings.
             </p>
             <Button 
               onClick={handleCallClick} 
@@ -70,7 +70,7 @@ const NormalIL = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              If you like to incorporate additional concrete into your residence, you have arrived at the appropriate location! Numerous outstanding concrete firms exist in Normal. Peoria Concrete Co., your local concrete provider, is committed to managing any projects you choose to do at your residence.
+              If you like to incorporate additional concrete into your residence, you have arrived at the appropriate location! Numerous outstanding concrete firms exist in Normal. <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link>, your local concrete provider, is committed to managing any projects you choose to do at your residence.
             </p>
             <p className="text-lg mb-6 text-gray-700">
               Whether you want a small-scale concrete contractor or a commercial concrete firm capable of fulfilling substantial orders, we assert that we are the ideal pouring business for your needs.
@@ -99,10 +99,10 @@ const NormalIL = () => {
           </div>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              It is essential to identify the most reputable concrete firm in your vicinity to address your requirements. Given the inability to assess the superiority of one organization over another without personal interaction, we advise obtaining many definitive estimates prior to making any judgments. Indeed, we encourage you to compare options. We have confidence in our products and exceptional service, and we wish for you to explore your possibilities.
+              It is essential to identify the most reputable <Link to="/" className="text-accent-blue hover:underline">concrete firm</Link> in your vicinity to address your requirements. Given the inability to assess the superiority of one organization over another without personal interaction, we advise obtaining many definitive estimates prior to making any judgments.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Contact Peoria Concrete Co. immediately to resolve your concrete issues with our skilled professionals! We will provide you with a dependable cost estimate and promptly finalize any specific tasks. Our team of concrete specialists have extensive practical knowledge in all aspects of concrete work. For several homes, concrete serves as an excellent enhancement.
+              Contact <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> immediately to resolve your <Link to="/concrete-crack-repair-peoria-il" className="text-accent-blue hover:underline">concrete issues</Link> with our skilled professionals! We will provide you with a dependable cost estimate and promptly finalize any specific tasks.
             </p>
           </div>
         </div>
@@ -117,7 +117,9 @@ const NormalIL = () => {
               />
             </div>
             <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-3 text-concrete-dark">Concrete Driveways</h3>
+              <h3 className="text-xl font-bold mb-3 text-concrete-dark">
+                <Link to="/concrete-driveway-peoria-il" className="hover:text-accent-blue">Concrete Driveways</Link>
+              </h3>
               <p className="text-gray-700">
                 Your choice of concrete design is facilitated by our competitive pricing and prompt, high-quality service.
               </p>
@@ -133,7 +135,9 @@ const NormalIL = () => {
               />
             </div>
             <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-3 text-concrete-dark">Concrete Patios</h3>
+              <h3 className="text-xl font-bold mb-3 text-concrete-dark">
+                <Link to="/concrete-patio-peoria-il" className="hover:text-accent-blue">Concrete Patios</Link>
+              </h3>
               <p className="text-gray-700">
                 Our team of seasoned concrete builders is pleased to install new concrete driveways or patios.
               </p>
@@ -340,6 +344,18 @@ const NormalIL = () => {
           <p className="text-lg mb-6 text-gray-700 animate-fade-in opacity-0 [animation-delay:800ms]">
             Peoria Concrete Co. is prepared to address any inquiries regarding concrete by the yard or other sections of your house. Contact us today at {phoneNumber}!
           </p>
+        </div>
+
+        {/* Other Locations We Serve */}
+        <div className="my-12">
+          <h3 className="text-2xl font-bold mb-6 text-concrete-dark">Other Areas We Serve</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <Link to="/concrete-contractor/champaign-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Champaign, IL</Link>
+            <Link to="/concrete-contractor/Bloomington-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Bloomington, IL</Link>
+            <Link to="/concrete-contractor/eureka-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Eureka, IL</Link>
+            <Link to="/concrete-contractor/morton-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Morton, IL</Link>
+            <Link to="/concrete-contractor/canton-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Canton, IL</Link>
+          </div>
         </div>
 
         {/* Google Map Section */}

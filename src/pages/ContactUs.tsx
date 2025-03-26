@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const phoneNumber = "309-245-7421";
@@ -56,7 +57,7 @@ const ContactUs = () => {
               Contact Us
             </h1>
             <p className="text-lg text-white mb-8">
-              Get in touch with the concrete experts in Peoria, IL
+              Get in touch with the <Link to="/" className="text-white hover:underline">concrete experts</Link> in Peoria, IL
             </p>
           </div>
         </div>
@@ -204,6 +205,29 @@ const ContactUs = () => {
                 </form>
               </CardContent>
             </Card>
+          </div>
+        </div>
+        
+        {/* Our Services Section */}
+        <div className="my-12">
+          <h3 className="text-2xl font-bold mb-6 text-concrete-dark">Our Services</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link to="/concrete-driveway-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Concrete Driveways</Link>
+            <Link to="/concrete-patio-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Concrete Patios</Link>
+            <Link to="/stamped-concrete-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Stamped Concrete</Link>
+            <Link to="/concrete-crack-repair-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Concrete Repair</Link>
+          </div>
+        </div>
+        
+        {/* Areas We Serve */}
+        <div className="my-12">
+          <h3 className="text-2xl font-bold mb-6 text-concrete-dark">Areas We Serve</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <Link to="/concrete-contractor/champaign-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Champaign, IL</Link>
+            <Link to="/concrete-contractor/Bloomington-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Bloomington, IL</Link>
+            <Link to="/concrete-contractor/normal-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Normal, IL</Link>
+            <Link to="/concrete-contractor/morton-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Morton, IL</Link>
+            <Link to="/concrete-contractor/eureka-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Eureka, IL</Link>
           </div>
         </div>
         
