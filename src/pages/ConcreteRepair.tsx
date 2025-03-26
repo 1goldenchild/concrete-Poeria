@@ -65,7 +65,7 @@ const ConcreteRepair = () => {
       <section className="container mx-auto px-4 py-12 md:py-16">
         <div className="prose max-w-none mb-12">
           <p className="text-lg leading-relaxed mb-8">
-            A company called Peoria Concrete Co. does everything that has to do with concrete. Large projects are what we do as a business concrete builder, but we're also happy to help you with smaller jobs. We work hard to give great service at a price we can both agree on. There's no need for you to take our word for it. Check out the reviews of our concrete company written by real, happy customers. Give us a call at 309-245-7421 right now to get a free price and ask any questions you have. We're here to help you!
+            A company called <Link to="/" className="text-accent hover:underline">Peoria Concrete Co.</Link> does everything that has to do with concrete. Large projects are what we do as a business <Link to="/" className="text-accent hover:underline">concrete contractor</Link>, but we're also happy to help you with smaller jobs. We work hard to give great service at a price we can both agree on. There's no need for you to take our word for it. Check out the reviews of our concrete company written by real, happy customers. Give us a call at 309-245-7421 right now to get a free price and ask any questions you have. We're here to help you!
           </p>
         </div>
 
@@ -75,7 +75,7 @@ const ConcreteRepair = () => {
               Fixing Cracks in Concrete
             </h2>
             <p className="text-lg leading-relaxed mb-6">
-              Peoria Concrete Co. will completely rebuild and fix any chips, cracks, or broken pieces of concrete in your road, path, patio, or pool deck. This will make sure that your newly fixed concrete lasts longer. On the other hand, crack fixes in concrete should be much more than just restoring the concrete. A colorful concrete overlay covering that was custom made for your home or business will definitely be useful after the job is done.
+              Peoria Concrete Co. will completely rebuild and fix any chips, cracks, or broken pieces of concrete in your road, path, <Link to="/concrete-patio-peoria-il" className="text-accent hover:underline">patio</Link>, or pool deck. This will make sure that your newly fixed concrete lasts longer. On the other hand, crack fixes in concrete should be much more than just restoring the concrete. A colorful concrete overlay covering that was custom made for your home or business will definitely be useful after the job is done.
             </p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
@@ -92,10 +92,10 @@ const ConcreteRepair = () => {
             Concrete Crack Repair Services in Peoria
           </h3>
           <p className="text-lg leading-relaxed mb-6">
-            Do the concrete floors in your home or workplace have cracks, chips, stains, or other problems that make them look bad or even dangerous? Peoria Concrete Co. can help you with that. Concrete is one of the most durable and inexpensive building products you can use. However, even this cloth will show signs of wear over time. Peoria's big changes in temperature are terrible for outside concrete. Over time, freeze-thaw cycles wear down concrete in weak spots, making the surface look bad and sometimes even dangerous.
+            Do the concrete floors in your home or workplace have cracks, chips, stains, or other problems that make them look bad or even dangerous? <Link to="/" className="text-accent hover:underline">Peoria Concrete Co.</Link> can help you with that. Concrete is one of the most durable and inexpensive building products you can use. However, even this cloth will show signs of wear over time. Peoria's big changes in temperature are terrible for outside concrete. Over time, freeze-thaw cycles wear down concrete in weak spots, making the surface look bad and sometimes even dangerous.
           </p>
           <p className="text-lg leading-relaxed mb-6">
-            Your home may lose worth if your driveway, pool deck, or patio is cracked or broken. It can also cause problems with the base. There are different ways to fix cracks based on their size and depth.
+            Your home may lose worth if your <Link to="/concrete-driveway-peoria-il" className="text-accent hover:underline">driveway</Link>, pool deck, or <Link to="/concrete-patio-peoria-il" className="text-accent hover:underline">patio</Link> is cracked or broken. It can also cause problems with the base. There are different ways to fix cracks based on their size and depth.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ const ConcreteRepair = () => {
             </p>
             <ul className="list-disc pl-6 mb-6 text-lg">
               <li className="mb-2">Concrete crack repair services you can trust—Get a price, an estimate, and more details.</li>
-              <li className="mb-2">Get in touch with a qualified, reliable, and skilled concrete contractor in your area.</li>
+              <li className="mb-2">Get in touch with a qualified, reliable, and skilled <Link to="/" className="text-accent hover:underline">concrete contractor</Link> in your area.</li>
               <li className="mb-2">Our services include fixing cracks in concrete for both businesses and homes.</li>
             </ul>
             <p className="text-lg leading-relaxed">
@@ -127,12 +127,12 @@ const ConcreteRepair = () => {
             Service to Fix Concrete in Peoria
           </h3>
           <p className="text-lg leading-relaxed mb-6">
-            If the pavement around your house or office is broken or not level, it can be a big problem. Some people might feel unsafe around it, and the value of your home might go down. When this happens, it's time to get help from a professional. We at Peoria Concrete Co. use the most up-to-date tools and methods to level, raise, seal, and protect the concrete in your home or business. In order to fix concrete, we offer the following services:
+            If the pavement around your house or office is broken or not level, it can be a big problem. Some people might feel unsafe around it, and the value of your home might go down. When this happens, it's time to get help from a professional. We at <Link to="/" className="text-accent hover:underline">Peoria Concrete Co.</Link> use the most up-to-date tools and methods to level, raise, seal, and protect the concrete in your home or business. In order to fix concrete, we offer the following services:
           </p>
           <ul className="list-disc pl-6 mb-6 text-lg">
             <li className="mb-2">Concrete with cracks</li>
             <li className="mb-2">Moving concrete</li>
-            <li className="mb-2">Coating for Concrete</li>
+            <li className="mb-2"><Link to="/stamped-concrete-peoria-il" className="text-accent hover:underline">Decorative Concrete Coating</Link></li>
           </ul>
           <p className="text-lg leading-relaxed mb-6">
             Set up repair services for concrete that are both affordable and easy for you to get to. To find out more about how to work with Peoria Concrete Co., call 309-245-7421 and talk to one of our concrete workers.
@@ -146,7 +146,7 @@ const ConcreteRepair = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-lg leading-relaxed mb-6">
-                The best way to escape the risks and structural problems that come with settling concrete is to lift it. In Peoria, the dirt is especially likely to settle, which makes concrete floors have high and low spots. Residents have had to deal with these problems for years or pay a lot of money to repair the trouble places. This problem can be fixed by a professional leveling of the concrete, which will leave your steps, roads, porches, patios, and even basement floors level for a lot less money than replacing them.
+                The best way to escape the risks and structural problems that come with settling concrete is to lift it. In Peoria, the dirt is especially likely to settle, which makes concrete floors have high and low spots. Residents have had to deal with these problems for years or pay a lot of money to repair the trouble places. This problem can be fixed by a professional leveling of the concrete, which will leave your steps, roads, porches, <Link to="/concrete-patio-peoria-il" className="text-accent hover:underline">patios</Link>, and even basement floors level for a lot less money than replacing them.
               </p>
               <p className="text-lg leading-relaxed mb-6">
                 Our main job in Peoria is lifting concrete. Our polyurethane expansion foam that comes in two parts is also good for the earth. It can be used to raise concrete blocks that are falling into holes in the ground. Our method straight away levels out uneven concrete, filling in gaps below the surface and keeping loose dirt in place.
@@ -188,14 +188,20 @@ const ConcreteRepair = () => {
             Concrete Lifting You Can Trust in Peoria
           </h3>
           <p className="text-lg leading-relaxed mb-6">
-            Want to hire a reliable, honest, and reasonably priced Peoria concrete builder who can lift and level any type of concrete? No matter if it's your driveway, patio, steps, stairs, path, fence, or something else, we can either lift and level the concrete or fix and replace it. To lift and level concrete in Peoria, no one does it better than us!
+            Want to hire a reliable, honest, and reasonably priced Peoria <Link to="/" className="text-accent hover:underline">concrete builder</Link> who can lift and level any type of concrete? No matter if it's your <Link to="/concrete-driveway-peoria-il" className="text-accent hover:underline">driveway</Link>, <Link to="/concrete-patio-peoria-il" className="text-accent hover:underline">patio</Link>, steps, stairs, path, fence, or something else, we can either lift and level the concrete or fix and replace it. To lift and level concrete in Peoria, no one does it better than us!
           </p>
-          <p className="text-lg leading-relaxed mb-6">
-            Lifting the concrete is the best way to fix the problems and risks that come from sinking concrete. The dirt in Peoria makes it hard for concrete mixes to settle, which makes the floor uneven. An awful lot of people have spent money over the years to fix or update these trouble spots so accidents don't happen. Leveling steps, patios, sidewalks, roads, and basement floors is an easy way to fix this.
-          </p>
-          <p className="text-lg leading-relaxed mb-6">
-            Unlike grading or replacing concrete, moving concrete is better for the earth and saves money. Polyurethane concrete makes it easy to fix a sidewalk, driveway, or patio that isn't level. We can help you move the concrete back to the right place. Just call us at 309-245-7421 right now.
-          </p>
+        </div>
+
+        {/* Areas We Serve Section */}
+        <div className="my-12 bg-gray-50 p-8 rounded-lg">
+          <h3 className="text-2xl font-bold mb-6 text-concrete-dark text-center">Areas We Serve</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <Link to="/concrete-contractor/champaign-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Champaign, IL</Link>
+            <Link to="/concrete-contractor/Bloomington-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Bloomington, IL</Link>
+            <Link to="/concrete-contractor/normal-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Normal, IL</Link>
+            <Link to="/concrete-contractor/morton-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Morton, IL</Link>
+            <Link to="/concrete-contractor/eureka-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Eureka, IL</Link>
+          </div>
         </div>
       </section>
 

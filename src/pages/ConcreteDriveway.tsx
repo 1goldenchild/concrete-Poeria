@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Phone, MapPin, ArrowRight } from 'lucide-react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 const ConcreteDriveway = () => {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -75,7 +76,7 @@ const ConcreteDriveway = () => {
               Concrete Driveway in Peoria
             </h1>
             <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-400">
-              Peoria Concrete Co. puts in professional walkways made of concrete for homes and businesses all over Peoria. Because they don't need as much upkeep as other materials, concrete paths are the best choice for both businesses and homeowners. Owners save more money in the long run with concrete than with dirt or asphalt, which are less expensive.
+              <Link to="/" className="text-white hover:underline">Peoria Concrete Co.</Link> puts in professional walkways made of concrete for homes and businesses all over Peoria. Because they don't need as much upkeep as other materials, concrete paths are the best choice for both businesses and homeowners. Owners save more money in the long run with concrete than with dirt or asphalt, which are less expensive.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in animate-delay-500">
@@ -119,11 +120,11 @@ const ConcreteDriveway = () => {
               </p>
               
               <p className="text-lg">
-                Most of the time, asphalt driveways cost more per square foot than concrete driveways. The price of concrete, on the other hand, depends on how big the driveway is and what kinds of decorations you want to use. You shouldn't let the price stop you from getting the driveway of your dreams. If you want to decorate your driveway but don't have a lot of money, we can also put in stamped concrete. Also, clients can tint the edge or the whole area in a number of different ways.
+                Most of the time, asphalt driveways cost more per square foot than concrete driveways. The price of concrete, on the other hand, depends on how big the driveway is and what kinds of decorations you want to use. You shouldn't let the price stop you from getting the driveway of your dreams. If you want to decorate your driveway but don't have a lot of money, we can also put in <Link to="/stamped-concrete-peoria-il" className="text-accent-blue hover:underline">stamped concrete</Link>. Also, clients can tint the edge or the whole area in a number of different ways.
               </p>
               
               <p className="text-lg">
-                Peoria Concrete Co. wants to make sure you get the driveway of your dreams no matter what. A concrete contractor will look at your path and tell you if it needs to be fixed or rebuilt. Once we have a good idea of what needs to be done, Peoria Concrete Co. will start working on your job. We take out and repair any concrete that is broken or cracked. The only difference is that at Peoria Concrete Co., we always fix the problem that made the concrete fall in the first place. We have a lot of rivals who just take out the old concrete and put in new concrete in the same place and way.
+                <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> wants to make sure you get the driveway of your dreams no matter what. A concrete contractor will look at your path and tell you if it needs to be fixed or rebuilt. Once we have a good idea of what needs to be done, Peoria Concrete Co. will start working on your job. We take out and <Link to="/concrete-crack-repair-peoria-il" className="text-accent-blue hover:underline">repair any concrete that is broken or cracked</Link>. The only difference is that at Peoria Concrete Co., we always fix the problem that made the concrete fall in the first place. We have a lot of rivals who just take out the old concrete and put in new concrete in the same place and way.
               </p>
             </div>
             
@@ -153,7 +154,7 @@ const ConcreteDriveway = () => {
             
             <div className="opacity-0 animate-fade-in animate-delay-100">
               <p className="text-lg mb-6">
-                It's hard to keep concrete in good shape in Peoria because of the bad weather. The change in temperature between summer and winter makes the water below the surface freeze and thaw. In this method, the concrete is worn down randomly and looks bad because the top layer is chipped and worn away.
+                It's hard to keep concrete in good shape in Peoria because of the bad weather. The change in temperature between summer and winter makes the water below the surface freeze and thaw. In this method, the concrete is worn down randomly and looks bad because the top layer is chipped and worn away. Our <Link to="/concrete-crack-repair-peoria-il" className="text-accent-blue hover:underline">concrete repair services</Link> can help address these issues.
               </p>
             </div>
           </div>
@@ -198,7 +199,7 @@ const ConcreteDriveway = () => {
             
             <div className="space-y-6 opacity-0 animate-fade-in animate-delay-100">
               <p className="text-lg">
-                Trust the pros at Peoria Concrete Co. to do a great job installing your driveway at a fair price. Our skilled workers can put in new roads and steps for your parking lot. We can also fix any walkways or roads that are already there.
+                Trust the pros at <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> to do a great job installing your driveway at a fair price. Our skilled workers can put in new roads and steps for your parking lot. We can also fix any walkways or roads that are already there. We also specialize in beautiful <Link to="/concrete-patio-peoria-il" className="text-accent-blue hover:underline">concrete patios</Link> for your outdoor living space.
               </p>
               
               <div className="mt-8 mb-8">
@@ -219,7 +220,7 @@ const ConcreteDriveway = () => {
             </h3>
             
             <p className="text-lg opacity-0 animate-fade-in animate-delay-300">
-              Our reliable concrete builders also have a lot of experience doing ornamental concrete work for your outdoor space to make it look better. Give us a call right now if you need work done on your road or with concrete.
+              Our reliable <Link to="/" className="text-accent-blue hover:underline">concrete contractors</Link> also have a lot of experience doing <Link to="/stamped-concrete-peoria-il" className="text-accent-blue hover:underline">ornamental concrete work</Link> for your outdoor space to make it look better. Give us a call right now if you need work done on your road or with concrete.
             </p>
             
             <div className="mt-8 opacity-0 animate-fade-in animate-delay-300">
@@ -256,8 +257,22 @@ const ConcreteDriveway = () => {
         </div>
       </section>
 
+      {/* Areas We Serve Section */}
+      <section className="py-12 bg-gray-50" ref={(el) => addToRefs(el, 6)}>
+        <div className="container px-6 mx-auto">
+          <h3 className="text-2xl font-bold mb-6 text-concrete-dark text-center">Areas We Serve</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            <Link to="/concrete-contractor/champaign-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Champaign, IL</Link>
+            <Link to="/concrete-contractor/Bloomington-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Bloomington, IL</Link>
+            <Link to="/concrete-contractor/normal-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Normal, IL</Link>
+            <Link to="/concrete-contractor/morton-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Morton, IL</Link>
+            <Link to="/concrete-contractor/eureka-il" className="bg-white hover:bg-gray-100 p-3 rounded text-center transition-colors shadow-sm">Eureka, IL</Link>
+          </div>
+        </div>
+      </section>
+
       {/* Google Map Section */}
-      <section className="section py-16" ref={(el) => addToRefs(el, 6)}>
+      <section className="section py-16" ref={(el) => addToRefs(el, 7)}>
         <div className="container px-6 mx-auto">
           <div className="text-center mb-8">
             <span className="inline-block text-accent-blue font-semibold mb-2 opacity-0 animate-fade-in">

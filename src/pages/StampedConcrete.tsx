@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
@@ -38,7 +39,7 @@ const StampedConcrete = () => {
               Peoria Stamped concrete and fancy concrete
             </h1>
             <p className="text-lg text-white mb-8">
-              Transform your outdoor space with decorative stamped concrete that combines durability with aesthetic appeal. Perfect for <Link to="/concrete-patio-peoria-il" className="text-white hover:underline">patios</Link> and <Link to="/concrete-driveway-peoria-il" className="text-white hover:underline">driveways</Link>.
+              Transform your outdoor space with decorative stamped concrete that combines durability with aesthetic appeal. Perfect for <Link to="/concrete-patio-peoria-il" className="text-white hover:underline">patios</Link>, <Link to="/concrete-driveway-peoria-il" className="text-white hover:underline">driveways</Link>, and walkways.
             </p>
             <Button 
               onClick={handleCallClick} 
@@ -70,7 +71,7 @@ const StampedConcrete = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              Concrete that has been stamped is used to build and landscape in Peoria. People like poured cement because it is easy to place and lasts a long time, but it isn't always the best-looking material for gardening. Putting stamped concrete on a <Link to="/concrete-patio-peoria-il" className="text-accent-blue hover:underline">patio</Link> or path can make your whole yard look better. Concrete doesn't have to be dull, and we are the experts in artistic concrete in the area. From your back yard to your front door, we work hard to cover it all with high-quality stamped concrete. Get in touch with <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> at {phoneNumber} right now!
+              <Link to="/" className="text-accent-blue hover:underline">Concrete contractors</Link> in Peoria know that stamped concrete is used to build and landscape in a way that's both artistic and durable. People like poured cement because it is easy to place and lasts a long time, but it isn't always the best-looking material for gardening. Putting stamped concrete on a <Link to="/concrete-patio-peoria-il" className="text-accent-blue hover:underline">patio</Link> or path can make your whole yard look better. Concrete doesn't have to be dull, and we are the experts in artistic concrete in the area. From your back yard to your front door, we work hard to cover it all with high-quality stamped concrete. Get in touch with <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> at {phoneNumber} right now for <Link to="/concrete-crack-repair-peoria-il" className="text-accent-blue hover:underline">concrete repair</Link> or installation!
             </p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg animate-fade-in opacity-0 [animation-delay:600ms]">
@@ -96,7 +97,7 @@ const StampedConcrete = () => {
           </div>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              How can you tell if stamped concrete is a good idea? Our workers at <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> work hard to give you choices. Talk to a member of our team or look at our website to compare stamped concrete designs and prices. We need the right professionals to help you choose between the different types of stamped concrete.
+              How can you tell if stamped concrete is a good idea? Our <Link to="/" className="text-accent-blue hover:underline">concrete professionals</Link> work hard to give you choices. Talk to a member of our team or look at our website to compare stamped concrete designs and prices. We need the right professionals to help you choose between the different types of stamped concrete for your <Link to="/concrete-driveway-peoria-il" className="text-accent-blue hover:underline">driveway project</Link>.
             </p>
             <p className="text-lg mb-6 text-gray-700">
               Think about cement pavers, brick designs that look nice, stamped <Link to="/concrete-driveway-peoria-il" className="text-accent-blue hover:underline">driveways</Link> and walks. A lot of people in Peoria use this type of cement on their <Link to="/concrete-patio-peoria-il" className="text-accent-blue hover:underline">patios</Link> and pool decks. Stamped concrete is used to cover the floors and walls of beautiful homes, both inside and outside. <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> has the best stamped concrete service in the area, no matter what you need or where you need it.
@@ -125,7 +126,7 @@ const StampedConcrete = () => {
               Concrete Services in Peoria
             </h3>
             <p className="text-lg mb-6 text-gray-700">
-              Bricks are priced by the yard. We work hard to give you a lot of choices when it comes to stamped concrete. We know how to work with beautiful concrete and do our best to keep it in good shape through skilled <Link to="/concrete-crack-repair-peoria-il" className="text-accent-blue hover:underline">repair</Link>. We are ready to take on both big and small jobs at <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> and we have what it takes!
+              Bricks are priced by the yard. We work hard to give you a lot of choices when it comes to stamped concrete. We know how to work with beautiful concrete and do our best to keep it in good shape through skilled <Link to="/concrete-crack-repair-peoria-il" className="text-accent-blue hover:underline">concrete crack repair</Link>. We are ready to take on both big and small jobs at <Link to="/" className="text-accent-blue hover:underline">Peoria Concrete Co.</Link> and we have what it takes!
             </p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg animate-fade-in opacity-0 [animation-delay:300ms]">
