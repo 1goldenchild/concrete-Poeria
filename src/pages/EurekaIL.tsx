@@ -14,8 +14,10 @@ import {
 } from "@/components/ui/breadcrumb";
 
 const EurekaIL = () => {
+  const phoneNumber = "309-245-7421";
+  
   const handleCallNow = () => {
-    window.location.href = "tel:3092457421";
+    window.location.href = `tel:${phoneNumber.replace(/-/g, "")}`;
   };
 
   return (
