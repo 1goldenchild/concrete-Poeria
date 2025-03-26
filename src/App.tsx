@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/layouts/Header";
+import Footer from "./components/layouts/Footer";
 import Index from "./pages/Index";
 import ConcreteDriveway from "./pages/ConcreteDriveway";
 import ConcretePatio from "./pages/ConcretePatio";
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
