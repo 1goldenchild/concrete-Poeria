@@ -1,9 +1,9 @@
-
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const EurekaIL = () => {
   const phoneNumber = "309-245-7421";
@@ -36,7 +36,7 @@ const EurekaIL = () => {
               Concrete Contractors and Concrete Firm in Eureka, IL
             </h1>
             <p className="text-lg text-white mb-8">
-              From our location in Eureka, we provide a variety of concrete contracting services that may be executed in or around your residence.
+              From our location in Eureka, we provide a variety of <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete driveway</Link> and <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">concrete patio</Link> contracting services that may be executed in or around your residence. Visit our <Link to="/" className="text-primary hover:underline">concrete company</Link> page to learn more.
             </p>
             <Button 
               onClick={handleCallClick} 
@@ -70,10 +70,10 @@ const EurekaIL = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              If you like to augment the quantity of concrete in your residence, you are in the right place! Numerous exemplary concrete enterprises now operate in Eureka. Peoria Concrete Co., your local concrete enterprise, is dedicated to managing any tasks you want for your residence.
+              If you like to augment the quantity of concrete in your residence, you are in the right place! Numerous exemplary concrete enterprises now operate in Eureka. <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link>, your local <Link to="/" className="text-primary hover:underline">concrete enterprise</Link>, is dedicated to managing any tasks you want for your residence.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              We believe we are the optimal concrete service provider for your requirements, whether for a small-scale project or a large commercial order.
+              We believe we are the optimal <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete service provider</Link> for your requirements, whether for a small-scale project or a large commercial order. Our <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">stamped concrete</Link> solutions are particularly popular in the area.
             </p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg animate-fade-in opacity-0 [animation-delay:600ms]">
@@ -99,17 +99,29 @@ const EurekaIL = () => {
           </div>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              You want to guarantee that the premier concrete company in your vicinity will fulfill your needs. We recommend acquiring many concrete estimates prior to making any decisions, as it is hard to assess the superiority of one business over another without an in-person encounter. We request that you compare the stores. We have confidence in our products and exceptional service, and we encourage you to explore your options.
+              You want to guarantee that the premier <Link to="/" className="text-primary hover:underline">concrete company</Link> in your vicinity will fulfill your needs. We recommend acquiring many concrete estimates prior to making any decisions, as it is hard to assess the superiority of one business over another without an in-person encounter. We request that you compare the stores. We have confidence in our products and exceptional service, and we encourage you to explore your options.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Contact Peoria Concrete Co. immediately to address any concrete concerns that necessitate resolution by our skilled technicians! A reliable cost estimate facilitates the efficient planning of any real work. Our team of concrete professionals have extensive, practical knowledge and is capable of managing all aspects of concrete work.
+              Contact <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> immediately to address any <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">concrete concerns</Link> that necessitate resolution by our skilled technicians! A reliable cost estimate facilitates the efficient planning of any real work. Our team of <Link to="/" className="text-primary hover:underline">concrete professionals</Link> have extensive, practical knowledge and is capable of managing all aspects of concrete work.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Numerous homeowners consider concrete to be an excellent accent. Our economical and efficient, high-caliber service assists you in selecting concrete design. If you need a professional team for commercial projects or little tasks, we are prepared to assist. The installation of a new concrete driveway or patio offers satisfaction to our team of skilled concrete builders.
+              Numerous homeowners consider concrete to be an excellent accent. Our economical and efficient, high-caliber service assists you in selecting concrete design. If you need a professional team for commercial projects or little tasks, we are prepared to assist. The installation of a new <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete driveway</Link> or <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link> offers satisfaction to our team of skilled <Link to="/" className="text-primary hover:underline">concrete builders</Link>.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Peoria Concrete Co. provides fundamental services like concrete roadways, flatwork, patios, walkways, and pathways. Utilizing robust and modern materials, we provide an extensive array of professional concrete services that require less maintenance and care. We offer a comprehensive range of concrete services for residential and commercial edifices. If you want repair on existing concrete or are in search of new concrete flatwork for patios and walkways in Eureka and the surrounding area, please contact one of our concrete contractors at {phoneNumber}.
+              <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> provides fundamental services like concrete roadways, flatwork, <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patios</Link>, walkways, and pathways. Utilizing robust and modern materials, we provide an extensive array of professional concrete services that require less maintenance and care. We offer a comprehensive range of concrete services for residential and commercial edifices. If you want <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">repair on existing concrete</Link> or are in search of new concrete flatwork for patios and walkways in Eureka and the surrounding area, please contact one of our concrete contractors at {phoneNumber}.
             </p>
+          </div>
+        </div>
+
+        {/* Other Areas We Serve Section */}
+        <div className="my-12">
+          <h3 className="text-2xl font-bold mb-6">Other Areas We Serve</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <Link to="/concrete-contractor/champaign-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Champaign, IL</Link>
+            <Link to="/concrete-contractor/Bloomington-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Bloomington, IL</Link>
+            <Link to="/concrete-contractor/normal-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Normal, IL</Link>
+            <Link to="/concrete-contractor/morton-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Morton, IL</Link>
+            <Link to="/concrete-contractor/canton-il" className="bg-gray-100 hover:bg-gray-200 p-3 rounded text-center transition-colors">Canton, IL</Link>
           </div>
         </div>
 
@@ -135,16 +147,16 @@ const EurekaIL = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              We are committed to delivering superior concrete contracting services to the citizens of Eureka, Illinois, and surrounding communities. Our team of concrete contractors is situated locally to address all your business and residential concrete needs. We provide a range of projects, including concrete flatwork, roadways, and paths.
+              We are committed to delivering superior <Link to="/" className="text-primary hover:underline">concrete contracting services</Link> to the citizens of Eureka, Illinois, and surrounding communities. Our team of <Link to="/" className="text-primary hover:underline">concrete contractors</Link> is situated locally to address all your business and residential concrete needs. We provide a range of projects, including concrete flatwork, roadways, and paths.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              We must fulfill your vision for your property and exceed your standards for every project at Peoria Concrete Co. We ensure equitable pricing for all our services by presenting transparent and explicit rates in advance. We recognize that each property possesses unique requirements and specifications; thus, we assess and analyze your particular demands and tailor every service accordingly.
+              We must fulfill your vision for your property and exceed your standards for every project at <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> We ensure equitable pricing for all our services by presenting transparent and explicit rates in advance. We recognize that each property possesses unique requirements and specifications; thus, we assess and analyze your particular demands and tailor every service accordingly.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              At Peoria Concrete Co., we highly recognize the importance of aesthetically pleasing and functional living environments. Concrete is an excellent option for both architectural and aesthetic appeal; it is also a versatile, durable material that needs low maintenance and care. Concrete surfaces and patios are optimal environments for withstanding natural elements and heavy foot traffic while preserving a pristine visual appeal.
+              At <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link>, we highly recognize the importance of aesthetically pleasing and functional living environments. Concrete is an excellent option for both architectural and aesthetic appeal; it is also a versatile, durable material that needs low maintenance and care. <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">Concrete surfaces and patios</Link> are optimal environments for withstanding natural elements and heavy foot traffic while preserving a pristine visual appeal.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              All concrete patios and surfaces are constructed precisely, securely, and without incidents utilizing advanced tools and highly skilled professionals. As a regional concrete contractor in Eureka, we provide a variety of concrete services. Your concrete driveway, patio, garage, or any designated area will be repaired with enhanced concrete. Our licensed concrete contractors are capable of constructing concrete structures.
+              All <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">concrete patios</Link> and surfaces are constructed precisely, securely, and without incidents utilizing advanced tools and highly skilled professionals. As a regional <Link to="/" className="text-primary hover:underline">concrete contractor</Link> in Eureka, we provide a variety of concrete services. Your <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">concrete driveway</Link>, patio, garage, or any designated area will be repaired with enhanced concrete. Our licensed concrete contractors are capable of constructing concrete structures.
             </p>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg animate-fade-in opacity-0 [animation-delay:300ms]">
@@ -162,19 +174,19 @@ const EurekaIL = () => {
           </h2>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              A concrete contractor will assess your foundation. Our assessment encompasses the expenses associated with necessary services, such as concrete stamping or painting. All supplementary things we provide will be charged accordingly. While we must maintain concrete slabs, new modifications are feasible. Most tasks need the abrasion of the slab surface, followed by the application of a concrete layer to ensure durability. This is often conducted on a patio or driveway. This serves an aesthetic purpose; the concrete will furthermore be protected for an extended period to avert more expensive repairs in the future. Peoria Concrete Co. consistently strives to inform you of the best concrete services available.
+              A <Link to="/" className="text-primary hover:underline">concrete contractor</Link> will assess your foundation. Our assessment encompasses the expenses associated with necessary services, such as <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">concrete stamping</Link> or painting. All supplementary things we provide will be charged accordingly. While we must maintain concrete slabs, new modifications are feasible. Most tasks need the abrasion of the slab surface, followed by the application of a concrete layer to ensure durability. This is often conducted on a <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link> or <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveway</Link>. This serves an aesthetic purpose; the concrete will furthermore be protected for an extended period to avert more expensive <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">repairs</Link> in the future. <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> consistently strives to inform you of the best concrete services available.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              For the construction of a new road or assistance in restoring your existing driveway, Peoria Concrete Co. is the foremost concrete company that will facilitate your decision. Engaging an expert for the specified work is crucial to ensure the prevention of potential complications or injuries in the future. Flatwork concrete refers to the ability of concrete to be placed on a horizontal plane. Our experts streamline the concrete design to correspond with whatever durable surface you possess for the entrance, walkway, and patio. Only proficient professionals can execute the challenging process of constructing a concrete patio.
+              For the construction of a new road or assistance in restoring your existing <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveway</Link>, <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> is the foremost <Link to="/" className="text-primary hover:underline">concrete company</Link> that will facilitate your decision. Engaging an expert for the specified work is crucial to ensure the prevention of potential complications or injuries in the future. Flatwork concrete refers to the ability of concrete to be placed on a horizontal plane. Our experts streamline the concrete design to correspond with whatever durable surface you possess for the entrance, walkway, and <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link>. Only proficient professionals can execute the challenging process of constructing a concrete patio.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              It is quite satisfying to see how proficiently our concrete builders ensure that your patio is meticulously made to avert mishaps or issues. Considering the weather conditions and the continuous utilization of your concrete area, which may result in issues such as cracking or fracturing, we prioritize providing you with optimal concrete services and maintenance. The integrity of concrete structures and services relies on high productivity and skilled, knowledgeable artisans. Concrete fissures can result in several complications. The issue may arise from improper adherence to the original design or alterations in the substrate underneath the concrete.
+              It is quite satisfying to see how proficiently our <Link to="/" className="text-primary hover:underline">concrete builders</Link> ensure that your patio is meticulously made to avert mishaps or issues. Considering the weather conditions and the continuous utilization of your concrete area, which may result in issues such as cracking or fracturing, we prioritize providing you with optimal concrete services and maintenance. The integrity of concrete structures and services relies on high productivity and skilled, knowledgeable artisans. Concrete fissures can result in several complications. The issue may arise from improper adherence to the original design or alterations in the substrate underneath the concrete.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              For a concrete contractor, assuming no other complications arise, cracks are quite straightforward to repair. Our skilled experts can do a comprehensive inspection—be it construction, repair, or reconstruction—to ensure that any potential damage is mitigated. Our organization is reliable in adhering to deadlines, efficiently handling tasks as time dictates, while balancing time limits, pricing variations, and product availability. Our previous engagements with other clients furnish us with a roster that ensures both simplicity and safety.
+              For a <Link to="/" className="text-primary hover:underline">concrete contractor</Link>, assuming no other complications arise, cracks are quite straightforward to <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">repair</Link>. Our skilled experts can do a comprehensive inspection—be it construction, repair, or reconstruction—to ensure that any potential damage is mitigated. Our organization is reliable in adhering to deadlines, efficiently handling tasks as time dictates, while balancing time limits, pricing variations, and product availability. Our previous engagements with other clients furnish us with a roster that ensures both simplicity and safety.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Our proficient contractors are selected based on their versatility, efficacy, performance, and client service. Consequently, we are pleased to provide these installation and concrete repair services. Contact us immediately at {phoneNumber} and permit our skilled concrete professionals to execute a work that will satisfy you! We aim to provide satisfactory service at an agreed-upon price that satisfies all parties. Examine the genuine testimonials from our satisfied clients regarding our business.
+              Our proficient contractors are selected based on their versatility, efficacy, performance, and client service. Consequently, we are pleased to provide these installation and <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">concrete repair services</Link>. Contact us immediately at {phoneNumber} and permit our skilled <Link to="/" className="text-primary hover:underline">concrete professionals</Link> to execute a work that will satisfy you! We aim to provide satisfactory service at an agreed-upon price that satisfies all parties. Examine the genuine testimonials from our satisfied clients regarding our business.
             </p>
           </div>
           
@@ -183,7 +195,7 @@ const EurekaIL = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Concrete Patios</h3>
                 <p className="text-gray-600">
-                  Concrete is an excellent option for constructing a patio in your backyard. Options include stained concrete, stamped concrete, and cement with color additives.
+                  Concrete is an excellent option for constructing a <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link> in your backyard. Options include stained concrete, <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">stamped concrete</Link>, and cement with color additives.
                 </p>
               </CardContent>
             </Card>
@@ -192,7 +204,7 @@ const EurekaIL = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Decorative Concrete</h3>
                 <p className="text-gray-600">
-                  Numerous types of decorative concrete may be installed in your driveway, patio, sidewalk, or residence with three separate options available.
+                  Numerous types of decorative concrete may be installed in your <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveway</Link>, <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link>, sidewalk, or residence with three separate options available.
                 </p>
               </CardContent>
             </Card>
@@ -201,7 +213,7 @@ const EurekaIL = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-3">Stamped Cement</h3>
                 <p className="text-gray-600">
-                  Stamped concrete features patterns imprinted into its surface, suitable for patios, driveways, or porches in any color throughout your residence.
+                  <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">Stamped concrete</Link> features patterns imprinted into its surface, suitable for patios, driveways, or porches in any color throughout your residence.
                 </p>
               </CardContent>
             </Card>
@@ -217,12 +229,12 @@ const EurekaIL = () => {
               Our extensive services comprise:
             </p>
             <ul className="list-disc pl-8 mb-6 text-lg text-gray-700">
-              <li>Concrete Placement</li>
+              <li><Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">Concrete Placement</Link></li>
               <li>Slab Concrete Placement</li>
-              <li>Driveway Placement</li>
+              <li><Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">Driveway Placement</Link></li>
             </ul>
             <p className="text-lg mb-6 text-gray-700">
-              While we advocate for our concrete services, we are also experienced patio contractors and deck builders. We also manufacture concrete for enterprises. You can depend on us to do the assignment accurately, regardless of the service required. Contact us at {phoneNumber} for further details on our concrete options, or visit our website for extra information.
+              While we advocate for our concrete services, we are also experienced <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio contractors</Link> and deck builders. We also manufacture concrete for enterprises. You can depend on us to do the assignment accurately, regardless of the service required. Contact us at {phoneNumber} for further details on our concrete options, or visit our <Link to="/" className="text-primary hover:underline">website</Link> for extra information.
             </p>
           </div>
         </div>
@@ -233,15 +245,15 @@ const EurekaIL = () => {
           </h2>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              Concrete is an excellent option for constructing a patio in your backyard. A concrete patio provides several options. Included among them are:
+              Concrete is an excellent option for constructing a <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link> in your backyard. A concrete patio provides several options. Included among them are:
             </p>
             <ul className="list-disc pl-8 mb-6 text-lg text-gray-700">
               <li>Stained concrete</li>
-              <li>Stamped concrete</li>
+              <li><Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">Stamped concrete</Link></li>
               <li>Cement with Color Additives</li>
             </ul>
             <p className="text-lg mb-6 text-gray-700">
-              An alternative option for constructing your patio is concrete flatwork. Not just patios, but even sidewalks and driveways may benefit from this type of minor concrete repair. The term "flatwork" derives from the ability of concrete to consistently provide a flat horizontal surface.
+              An alternative option for constructing your patio is concrete flatwork. Not just patios, but even sidewalks and <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveways</Link> may benefit from this type of minor concrete <Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">repair</Link>. The term "flatwork" derives from the ability of concrete to consistently provide a flat horizontal surface.
             </p>
             <p className="text-lg mb-6 text-gray-700">
               Ornamental concrete and other flatwork options are all commendable selections for patios. Your selection of patio will provide a refined and polished aesthetic, irrespective of other factors. You may now contact us for further information on pricing and additional options.
@@ -255,11 +267,11 @@ const EurekaIL = () => {
           </h2>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              Numerous types of decorative concrete may be installed in your driveway, patio, sidewalk, or residence. We provide three separate options: stamped concrete, tinted concrete, and more details are provided below.
+              Numerous types of decorative concrete may be installed in your <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveway</Link>, <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link>, sidewalk, or residence. We provide three separate options: <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">stamped concrete</Link>, tinted concrete, and more details are provided below.
             </p>
             <h4 className="text-xl font-semibold mb-3 text-gray-800">Concrete for Vehicular Access</h4>
             <p className="text-lg mb-6 text-gray-700">
-              If your concrete driveway is already installed and you wish to enhance your home's aesthetic appeal, consider the following treatments:
+              If your concrete <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveway</Link> is already installed and you wish to enhance your home's aesthetic appeal, consider the following treatments:
             </p>
             <ul className="list-disc pl-8 mb-6 text-lg text-gray-700">
               <li>Concrete Finishing</li>
@@ -277,23 +289,46 @@ const EurekaIL = () => {
           </h2>
           <div className="animate-fade-in opacity-0 [animation-delay:400ms]">
             <p className="text-lg mb-6 text-gray-700">
-              Stamped concrete is a type of decorative concrete that features a pattern imprinted into its surface. All types of cement can be stamped, including areas such as patios, driveways, or porches. We can imprint any desired design in any color throughout your residence.
+              <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">Stamped concrete</Link> is a type of decorative concrete that features a pattern imprinted into its surface. All types of cement can be stamped, including areas such as patios, driveways, or porches. We can imprint any desired design in any color throughout your residence.
             </p>
             <p className="text-lg mb-6 text-gray-700">
               There are more sealing options.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Complete our expedited concrete quotation form for patio pricing or any further queries you may possess.
+              Complete our expedited concrete quotation form for <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio</Link> pricing or any further queries you may possess.
             </p>
             <p className="text-lg mb-6 text-gray-700">
               Staining may be an excellent option if you desire to change the color of your concrete. Any concrete slab selected for color modification may be tinted.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Diverse types of decorative concrete may enhance various areas of your home. One of the most effective strategies to protect your home from wear due to excessive traffic is to put durable materials such as concrete on floors, pathways, worktops, or driveways.
+              Diverse types of decorative concrete may enhance various areas of your home. One of the most effective strategies to protect your home from wear due to excessive traffic is to put durable materials such as concrete on floors, pathways, worktops, or <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveways</Link>.
             </p>
             <p className="text-lg mb-6 text-gray-700">
-              Peoria Concrete Co. is ready to address any inquiries regarding concrete by the yard or other residential areas. Contact us immediately at {phoneNumber}!
+              <Link to="/" className="text-primary hover:underline">Peoria Concrete Co.</Link> is ready to address any inquiries regarding concrete by the yard or other residential areas. Contact us immediately at {phoneNumber}!
             </p>
+          </div>
+        </div>
+
+        {/* Our Services Section */}
+        <div className="my-12">
+          <h3 className="text-2xl font-bold mb-6">Our Concrete Services</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link to="/concrete-driveway-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
+              <h4 className="font-semibold">Concrete Driveways</h4>
+              <p className="text-sm text-gray-600 mt-2">Expert driveway installation in Eureka</p>
+            </Link>
+            <Link to="/concrete-patio-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
+              <h4 className="font-semibold">Concrete Patios</h4>
+              <p className="text-sm text-gray-600 mt-2">Beautiful outdoor spaces for your home</p>
+            </Link>
+            <Link to="/stamped-concrete-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
+              <h4 className="font-semibold">Stamped Concrete</h4>
+              <p className="text-sm text-gray-600 mt-2">Decorative options for any surface</p>
+            </Link>
+            <Link to="/concrete-crack-repair-peoria-il" className="bg-gray-100 hover:bg-gray-200 p-4 rounded text-center transition-colors">
+              <h4 className="font-semibold">Concrete Repair</h4>
+              <p className="text-sm text-gray-600 mt-2">Fix cracks and damage effectively</p>
+            </Link>
           </div>
         </div>
 
