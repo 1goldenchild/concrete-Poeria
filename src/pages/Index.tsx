@@ -1,9 +1,8 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Phone, MapPin, ArrowRight } from 'lucide-react';
 
 const Index = () => {
-  const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
     const observerOptions = {
@@ -34,7 +33,7 @@ const Index = () => {
     };
   }, []);
 
-  const addToRefs = (el: HTMLDivElement | null, index: number) => {
+  const addToRefs = (el: HTMLElement | null, index: number) => {
     if (el && !sectionRefs.current.includes(el)) {
       sectionRefs.current[index] = el;
     }
