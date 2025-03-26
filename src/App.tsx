@@ -17,6 +17,7 @@ import BloomingtonIL from "./pages/BloomingtonIL";
 import NormalIL from "./pages/NormalIL";
 import MortonIL from "./pages/MortonIL";
 import CantonIL from "./pages/CantonIL";
+import EurekaIL from "./pages/EurekaIL";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -41,6 +42,7 @@ const App = () => (
           <Route path="/concrete-contractor/normal-il" element={<NormalIL />} />
           <Route path="/concrete-contractor/morton-il" element={<MortonIL />} />
           <Route path="/concrete-contractor/canton-il" element={<CantonIL />} />
+          <Route path="/concrete-contractor/eureka-il" element={<EurekaIL />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
