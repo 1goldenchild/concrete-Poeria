@@ -27,7 +27,7 @@ const StampedConcrete = () => {
         <div 
           className="absolute inset-0 bg-hero-pattern opacity-70"
           style={{ 
-            backgroundImage: `url('/lovable-uploads/558e0f4d-4fc0-44be-ac14-5e735cc4772c.png')`,
+            backgroundImage: `url('/lovable-uploads/7469bd3e-c54b-4c9e-88a3-378c547c7614.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
