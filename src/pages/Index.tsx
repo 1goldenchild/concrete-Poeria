@@ -1,6 +1,6 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Phone, MapPin, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -199,11 +199,20 @@ const Index = () => {
                   alt="Professional concrete flatwork in progress by Peoria Concrete technician, showing the precision and care that goes into every project" 
                   className="w-full h-auto rounded-lg shadow-md"
                 />
-                <img 
-                  src="/lovable-uploads/20580a80-2664-4e8a-aada-daa8dafb6d41.png" 
-                  alt="Beautiful neighborhood with quality concrete driveways installed by Peoria Concrete Co., demonstrating our residential concrete services" 
-                  className="w-full h-auto rounded-lg shadow-md"
-                />
+                <div className="flex flex-col justify-between">
+                  <img 
+                    src="/lovable-uploads/20580a80-2664-4e8a-aada-daa8dafb6d41.png" 
+                    alt="Beautiful neighborhood with quality concrete driveways installed by Peoria Concrete Co., demonstrating our residential concrete services" 
+                    className="w-full h-auto rounded-lg shadow-md mb-4"
+                  />
+                  <Link 
+                    to="/concrete-driveway-peoria-il" 
+                    className="text-accent-blue font-medium hover:underline flex items-center gap-1"
+                  >
+                    Learn more about our concrete driveway services
+                    <ArrowRight size={16} />
+                  </Link>
+                </div>
               </div>
               
               <p className="text-lg">
