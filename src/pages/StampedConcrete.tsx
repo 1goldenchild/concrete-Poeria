@@ -5,6 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 
 const StampedConcrete = () => {
   const phoneNumber = "309-245-7421";
@@ -22,6 +30,23 @@ const StampedConcrete = () => {
           content="Looking for stunning stamped concrete in Peoria? Our concrete company specializes in creating decorative, durable surfaces for patios, driveways, and more. Contact us at 309-245-7421 to get started."
         />
       </Helmet>
+
+      {/* Breadcrumb Navigation */}
+      <div className="container mx-auto px-4 py-4">
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink asChild>
+                <Link to="/">Home</Link>
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>Stamped Concrete</BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+      </div>
 
       {/* Hero Section */}
       <div className="relative bg-concrete-dark py-20 md:py-32">

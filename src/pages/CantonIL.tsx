@@ -1,9 +1,17 @@
-
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 
 const CantonIL = () => {
   const handleCallNow = () => {
@@ -20,16 +28,33 @@ const CantonIL = () => {
         />
       </Helmet>
 
+      {/* Breadcrumb Navigation */}
+      <div className="container mx-auto px-4 py-4">
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink asChild>
+                <Link to="/">Home</Link>
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>Canton, IL</BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+      </div>
+
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-primary/10 to-background py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="lg:w-1/2">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-                Concrete Contractors and Concrete Company in Canton, IL
+                <Link to="/" className="hover:text-primary/90">Concrete Contractors</Link> and Concrete Company in Canton, IL
               </h1>
               <p className="text-lg mb-8">
-                From right here in Canton, we provide a number of various concrete contracting services that may be performed in or around your house. Should you like to increase the amount of concrete in your house, you are at the correct location!
+                From right here in Canton, we provide a number of various concrete contracting services including <Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">decorative options</Link>, <Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">driveways</Link>, and <Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">patio installations</Link>.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 gap-2" onClick={handleCallNow}>
@@ -75,7 +100,7 @@ const CantonIL = () => {
           <div className="lg:col-span-2 space-y-8">
             <div>
               <p className="text-lg mb-6">
-                Many great concrete businesses exist right now in Canton. Peoria Concrete Co., your neighborhood concrete business, is committed to handling any of the work you would want done around your house.
+                Many great <Link to="/" className="text-primary hover:underline">concrete businesses</Link> exist right now in Canton. Peoria Concrete Co., your neighborhood concrete business, is committed to handling any of the work you would want done around your house.
               </p>
               <p className="text-lg mb-6">
                 We think we are the ideal pouring business for you whether your needs are for a tiny project concrete company or a commercial concrete company with a big order to complete.
@@ -137,7 +162,10 @@ const CantonIL = () => {
               <h3 className="text-2xl font-bold mb-4">Canton, Illinois Concrete Services</h3>
               <p className="text-lg mb-6">Our many offerings include:</p>
               <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li>Concrete Pouring/Slab Concrete Pouring Driveway Pouring</li>
+                <li><Link to="/concrete-driveway-peoria-il" className="text-primary hover:underline">Concrete Driveways</Link></li>
+                <li><Link to="/concrete-patio-peoria-il" className="text-primary hover:underline">Concrete Patios</Link></li>
+                <li><Link to="/stamped-concrete-peoria-il" className="text-primary hover:underline">Stamped Concrete</Link></li>
+                <li><Link to="/concrete-crack-repair-peoria-il" className="text-primary hover:underline">Concrete Repair</Link></li>
               </ul>
               <p className="text-lg mb-6">
                 Though we promote our concrete services, we are also quite seasoned patio contractors & deck builders. We also create concrete for businesses. Whatever service you want, you can rely on us to complete the task correctly!
@@ -278,6 +306,36 @@ const CantonIL = () => {
                   <Button variant="outline" className="w-full" onClick={handleCallNow}>
                     Get a Free Quote
                   </Button>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-lg overflow-hidden">
+                <div className="bg-primary text-white py-4 px-6">
+                  <h3 className="text-xl font-bold">Other Service Areas</h3>
+                </div>
+                <CardContent className="p-6">
+                  <ul className="space-y-3">
+                    <li className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <Link to="/concrete-contractor/champaign-il" className="hover:text-primary">Champaign, IL</Link>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <Link to="/concrete-contractor/Bloomington-il" className="hover:text-primary">Bloomington, IL</Link>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <Link to="/concrete-contractor/normal-il" className="hover:text-primary">Normal, IL</Link>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <Link to="/concrete-contractor/morton-il" className="hover:text-primary">Morton, IL</Link>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
+                      <Link to="/concrete-contractor/eureka-il" className="hover:text-primary">Eureka, IL</Link>
+                    </li>
+                  </ul>
                 </CardContent>
               </Card>
             </div>
