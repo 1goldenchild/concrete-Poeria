@@ -140,60 +140,12 @@ const StampedConcrete = () => {
           </div>
         </div>
 
-        {/* Project Showcase Cards */}
-        <div className="mt-12 mb-16">
-          <h2 className="text-3xl font-bold mb-8 text-concrete-dark text-center animate-fade-in opacity-0 [animation-delay:200ms]">
-            Our Stamped Concrete Projects
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="overflow-hidden transform transition-all duration-300 hover:shadow-xl animate-fade-in opacity-0 [animation-delay:300ms]">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src="/lovable-uploads/558e0f4d-4fc0-44be-ac14-5e735cc4772c.png" 
-                  alt="Curved stamped concrete pathway with ambient lighting" 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                />
-              </div>
-              <CardContent className="p-5">
-                <h3 className="font-semibold text-lg mb-2">Elegant Pathways</h3>
-                <p className="text-gray-600">Custom stamped concrete pathways with integrated lighting for enhanced aesthetics.</p>
-              </CardContent>
-            </Card>
-            <Card className="overflow-hidden transform transition-all duration-300 hover:shadow-xl animate-fade-in opacity-0 [animation-delay:400ms]">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src="/lovable-uploads/1d86b716-543a-4dcf-8c85-1ae9dbf0b7ac.png" 
-                  alt="Modern concrete patio with clean lines and fire pit" 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                />
-              </div>
-              <CardContent className="p-5">
-                <h3 className="font-semibold text-lg mb-2">Modern Patios</h3>
-                <p className="text-gray-600">Contemporary stamped concrete patios with clean designs for outdoor entertaining.</p>
-              </CardContent>
-            </Card>
-            <Card className="overflow-hidden transform transition-all duration-300 hover:shadow-xl animate-fade-in opacity-0 [animation-delay:500ms]">
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src="/lovable-uploads/7469bd3e-c54b-4c9e-88a3-378c547c7614.png" 
-                  alt="Decorative stamped concrete with brick pattern" 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                />
-              </div>
-              <CardContent className="p-5">
-                <h3 className="font-semibold text-lg mb-2">Decorative Driveways</h3>
-                <p className="text-gray-600">Beautiful stamped concrete driveways that enhance your property's curb appeal.</p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-
         {/* Google Map Section */}
         <div className="my-12 animate-fade-in opacity-0 [animation-delay:600ms]">
           <h3 className="text-2xl font-bold mb-6 text-concrete-dark text-center">Our Service Area</h3>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193448.45115159842!2d-89.78745021896188!3d40.74812128718294!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880a595c535879ad%3A0xcafbf4326b7d80db!2sPeoria%2C%20IL%2C%20USA!5e0!3m2!1sen!2sma!4v1742983631421!5m2!1sen!2sma" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193448.45115159842!2d-89.78745021896188!3d40.74812128718294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880a595c535879ad%3A0xcafbf4326b7d80db!2sPeoria%2C%20IL%2C%20USA!5e0!3m2!1sen!2sma!4v1742983631421!5m2!1sen!2sma" 
               width="100%" 
               height="450" 
               style={{ border: 0 }} 
