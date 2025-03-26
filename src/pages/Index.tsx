@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { Phone, MapPin, ArrowRight } from 'lucide-react';
 
@@ -52,8 +53,8 @@ const Index = () => {
       >
         <div className="absolute inset-0 z-0 bg-black">
           <img 
-            src="/photo-1487958449943-2429e8be8625" 
-            alt="Professional concrete driveway installation by Peoria Concrete Co. showcasing high-quality workmanship and durability" 
+            src="/lovable-uploads/df1d8003-de8b-4e41-bba7-0ed0f5bc5726.png" 
+            alt="Modern residential driveway with smooth concrete finish by Peoria Concrete Co, showcasing our professional installation and durability" 
             className="w-full h-full object-cover opacity-70"
           />
           <div className="absolute inset-0 bg-hero-pattern"></div>
@@ -142,8 +143,8 @@ const Index = () => {
             
             <div className="mt-8 opacity-0 animate-fade-in animate-delay-300">
               <img 
-                src="/photo-1524230572899-a752b3835840" 
-                alt="Newly installed decorative concrete patio by Peoria Concrete Co., featuring stamped design and professional finishing" 
+                src="/lovable-uploads/f3755294-0c69-4c8e-a07b-1770275194b8.png" 
+                alt="Professional concrete foundation installation by Peoria Concrete Co., showcasing our expert team's precision and quality workmanship" 
                 className="w-full h-auto rounded-xl shadow-lg"
               />
             </div>
@@ -155,8 +156,8 @@ const Index = () => {
       <section className="relative py-16 bg-accent-blue text-white overflow-hidden" ref={(el) => addToRefs(el, 3)}>
         <div className="absolute inset-0 opacity-10">
           <img 
-            src="/photo-1433086966358-54859d0ed716" 
-            alt="Abstract concrete texture showcasing the quality of Peoria Concrete Co.'s work" 
+            src="/lovable-uploads/63e0b184-368a-4631-b7da-9fbe393ba3b1.png" 
+            alt="Expertly installed stamped concrete patio by Peoria Concrete Co., demonstrating decorative concrete options available to homeowners" 
             className="w-full h-full object-cover"
           />
         </div>
@@ -191,6 +192,19 @@ const Index = () => {
               <p className="text-lg">
                 At Peoria Concrete Co., we do simple things like concrete driveways, flatwork, patios, walks, and pathways. Through the use of strong and modern materials, we offer a wide range of skilled concrete services that are made to last and need little care. Our concrete services cover all kinds of buildings, from homes to businesses. For patios and walking surfaces in Peoria and the surrounding area, please don't hesitate to call one of our concrete workers at 309-245-7421 if you need to fix up old concrete or get new concrete flatwork.
               </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
+                <img 
+                  src="/lovable-uploads/8f3657fc-e104-4597-ab35-96266deb2d76.png" 
+                  alt="Professional concrete flatwork in progress by Peoria Concrete technician, showing the precision and care that goes into every project" 
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+                <img 
+                  src="/lovable-uploads/20580a80-2664-4e8a-aada-daa8dafb6d41.png" 
+                  alt="Beautiful neighborhood with quality concrete driveways installed by Peoria Concrete Co., demonstrating our residential concrete services" 
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
               
               <p className="text-lg">
                 As a company, Peoria Concrete Co. is dedicated to providing the best concrete building services to the people of Peoria, Illinois, and the nearby towns. Our team of concrete workers in your local store can help you with all of your home and business concrete plans. We build a lot of different things, from concrete flatwork to walks and roads. For all of your jobs here at Peoria Concrete Co., it's important that we meet your needs and go above and beyond what you expect. For each of our services, we make sure that our prices are fair by giving you clear and open prices for all of them.
@@ -250,6 +264,14 @@ const Index = () => {
                 <p className="mt-4">
                   All of these choices for flatwork are great for patios, even artistic concrete. You can be sure that your patio will look great no matter what you decide. You can call us today to find out more about the price and other payment choices.
                 </p>
+                
+                <div className="mt-6">
+                  <img 
+                    src="/lovable-uploads/63e0b184-368a-4631-b7da-9fbe393ba3b1.png" 
+                    alt="Beautiful stamped concrete patio with outdoor furniture, showing the aesthetic appeal and functionality of our decorative concrete solutions" 
+                    className="w-full h-auto rounded-xl shadow-lg"
+                  />
+                </div>
               </div>
               
               <div>
@@ -269,6 +291,14 @@ const Index = () => {
                 <p className="mt-4">
                   No matter what kind of concrete services you need in Peoria, IL, we can take care of them right away, whether they are for a business or a home. Anywhere we are, our team can answer any other questions you may have about the price of concrete or other choices.
                 </p>
+                
+                <div className="mt-6">
+                  <img 
+                    src="/lovable-uploads/df1d8003-de8b-4e41-bba7-0ed0f5bc5726.png" 
+                    alt="Smooth, perfectly finished concrete driveway enhancing a residential property, demonstrating our quality workmanship" 
+                    className="w-full h-auto rounded-xl shadow-lg"
+                  />
+                </div>
               </div>
             </div>
             
