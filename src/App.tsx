@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
 import Index from "./pages/Index";
@@ -24,6 +24,15 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+// The sitemap.xml and robots.txt files should be served directly from the public folder
+// by the web server and should not be handled by React Router.
+// This component ensures that if someone tries to access these URLs through React Router,
+// they will be redirected appropriately.
+const SitemapRedirect = () => {
+  window.location.href = '/sitemap.xml';
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -41,6 +50,7 @@ const App = () => (
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/sitemap.xml" element={<SitemapRedirect />} />
             <Route path="/concrete-contractor/champaign-il" element={<ChampaignIL />} />
             <Route path="/concrete-contractor/Bloomington-il" element={<BloomingtonIL />} />
             <Route path="/concrete-contractor/normal-il" element={<NormalIL />} />
