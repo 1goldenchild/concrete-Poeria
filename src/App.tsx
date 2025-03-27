@@ -14,7 +14,6 @@ import StampedConcrete from "./pages/StampedConcrete";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
-import Sitemap from "./pages/Sitemap";
 import ChampaignIL from "./pages/ChampaignIL";
 import BloomingtonIL from "./pages/BloomingtonIL";
 import NormalIL from "./pages/NormalIL";
@@ -42,7 +41,6 @@ const App = () => (
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
-            <Route path="/sitemap" element={<Sitemap />} />
             <Route path="/concrete-contractor/champaign-il" element={<ChampaignIL />} />
             <Route path="/concrete-contractor/Bloomington-il" element={<BloomingtonIL />} />
             <Route path="/concrete-contractor/normal-il" element={<NormalIL />} />
